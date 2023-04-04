@@ -1,0 +1,23 @@
+require("plugins-setup")
+
+require("core.options")
+require("core.keymaps")
+require("core.hooks")
+
+-- 插件
+require("plugins.lualine")
+require("plugins/nvim-tree")
+require("plugins/treesitter")
+require("plugins/lsp")
+require("plugins/cmp")
+require("plugins/comment")
+require("plugins/autopairs")
+require("plugins/bufferline")
+require("plugins/gitsigns")
+require("plugins/telescope")
+require("plugins/sniprun")
+require("plugins/toggleterm")
+require("plugins/code-runner")
+require("plugins/dap")
+require("plugins/ayu")
+require("plugins/formatter")
